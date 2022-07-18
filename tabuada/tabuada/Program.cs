@@ -8,15 +8,15 @@ namespace tabuada
         static void Main(string[] args)
 
         {
-            int fator, resultado ;
+            int fator ;
             Console.WriteLine("Escreva qual numero quer multiplicar");
             fator = int.Parse(Console.ReadLine());
 
 
-            for (int y = 1; y <= 10; y++)
+            for (int y = 0; y <= 10; y++)
             {
-                resultado = fator * y;
-                Console.WriteLine(fator + " x " + y + " = "+ resultado);
+              
+                Console.WriteLine(fator + " x " + y + " = "+ fator * y);
             }
         }
     }
